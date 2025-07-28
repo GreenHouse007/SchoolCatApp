@@ -4,29 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CatPhotoApp</title>
-    <!--css to make it look better-->
-    <style>
-      body {
-        background-color: lightblue;
-        font-family: Verdana, sans-serif;
-        margin-left: 40px;
-        margin-right: 40px;
-      }
-      h1 {
-        text-align: center;
-        color: darkblue;
-      }
-      img {
-        width: auto;
-        height: 300px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#info">Info</a>
+        </li>
+        <li>
+          <a href="#submit">Submit</a>
+        </li>
+      </ul>
+    </nav>
     <main>
-      <h1>CatPhotoApp</h1>
-      <section>
+      <header id="home">
+        <div class="banner">
+          <img
+            src="https://thumb.photo-ac.com/e2/e20037aaeb890a7de4860ea4662e8126_t.jpeg"
+            alt="Cat Photo App Logo"
+          />
+        </div>
+        <h1>Welcome to the Cat Photo App</h1>
+        <p>Your one-stop destination for all things cat photos!</p>
+      </header>
+      <section id="about">
         <h2>Cat Photos</h2>
         <p>
           Everyone loves
@@ -34,46 +45,120 @@
             href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
             >cute cats</a
           >
-          online! Whether it's playful kittens tumbling over each other or
-          fluffy felines striking silly poses, cat photos and videos bring
-          endless smiles to people around the world. These adorable creatures
-          have become internet stars, filling social media feeds with joy and
-          laughter. It's no wonder that sharing cute cat content has become a
-          universal way to brighten someone's day.
+          online! At Cat Photo App, we believe the world is a brighter, happier
+          place because of cats. From their playful pounces to their gentle
+          purrs, cats have an incredible way of bringing comfort, joy, and a bit
+          of magic into our everyday lives. Our mission is simple: to create a
+          space where cat lovers everywhere can share adorable photos, celebrate
+          their feline friends, and connect with others who understand the power
+          of a whiskered smile. Whether it’s a silly kitten moment, a majestic
+          cat pose, or that perfect nap-in-the-sun snapshot, every picture here
+          tells a story of love and companionship. By sharing our joy for cats,
+          we spread happiness, laughter, and a sense of community—reminding each
+          other that even the smallest paws can leave the biggest prints on our
+          hearts.
         </p>
-
         <p>
-          See more
-          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
-          in our gallery.
+          Upload. Share. Celebrate. Because life is always better with cats.
         </p>
-        <a href="https://freecatphotoapp.com"
-          ><img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-            alt="A cute orange cat lying on its back."
-        /></a>
-        <a href="https://freecatphotoapp.com"
-          ><img
-            src="https://careyanimalhospital.com/wp-content/uploads/2022/09/hypoallergenic-cats-cincinnati-oh.jpg"
-            alt="Hairless cat walking."
-        /></a>
-        <a href="https://freecatphotoapp.com"
-          ><img
-            src="https://media.4-paws.org/d/2/5/f/d25ff020556e4b5eae747c55576f3b50886c0b90/cut%20cat%20serhio%2002-1813x1811-720x719.jpg"
-            alt="A cute orange cat lying on its back."
-        /></a>
       </section>
-      <section>
+
+      <section id="gallery">
+        <h2>Cat Gallery</h2>
+        <p>Here are some of our favorite cat photos.</p>
+        <h3>Kittens</h3>
+        <div class="photos">
+          <img src="images/kitten-cyan.jpg" alt="kitten upside down" />
+          <img
+            src="images/blog-kitten-nursery-operation-kindness.jpg"
+            alt="Hairless cat walking."
+          />
+          <img
+            src="images/litter-of-kittens.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/striped-grey-kitten.webp"
+            alt="Hairless cat walking."
+          />
+          <img
+            src="images/content_cute-kitten-from-marnie-russ-3.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+        </div>
+        <h3>Black Cats</h3>
+        <div class="photos">
+          <img
+            src="images/blackCat1.webp"
+            alt="A cute orange cat lying on its back."
+          />
+          <img src="images/BlackCat2.jpg" alt="Hairless cat walking." />
+          <img
+            src="images/blackcat3.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/blackcat4.webp"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/blackcat5.webp"
+            alt="A cute orange cat lying on its back."
+          />
+        </div>
+        <h3>Gray Cats</h3>
+        <div class="photos">
+          <img
+            src="images/graycat1.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img src="images/grey-cat2.jpeg" alt="Hairless cat walking." />
+          <img
+            src="images/graycat3.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/gray-cats-compressed.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/graycat5.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+          <img
+            src="images/gray6.jpg"
+            alt="A cute orange cat lying on its back."
+          />
+        </div>
+        <p>
+          More cat photos coming soon! We are always adding new images to our
+          gallery, so check back often to see the latest adorable additions.
+        </p>
+      </section>
+      <section id="info">
         <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>Catnip</li>
-          <li>Laser pointers</li>
-          <li>Lasagna</li>
-          <li>Knocking stuff off tables</li>
-          <li>Sleeping</li>
-          <li>Chasing mice</li>
-        </ul>
+
+        <section class="cat-likes">
+          <h2>Things Cats Like</h2>
+          <ul class="list">
+            <li>Sunbeams</li>
+            <li>Cardboard boxes</li>
+            <li>Catnip</li>
+            <li>Laser pointers</li>
+            <li>Feather toys</li>
+            <li>Warm laps</li>
+            <li>Scratching posts</li>
+            <li>Window perches</li>
+            <li>Treats</li>
+            <li>Soft blankets</li>
+            <li>Paper bags</li>
+            <li>Bird watching</li>
+            <li>Chasing string</li>
+            <li>Nap time</li>
+            <li>Being admired</li>
+          </ul>
+        </section>
+
         <figure>
           <img
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
@@ -81,14 +166,27 @@
           />
           <figcaption>Cats <em>love</em> lasagna.</figcaption>
         </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>Flea treatment</li>
-          <li>Thunder</li>
-          <li>Other cats</li>
-          <li>Being ignored</li>
-          <li>Getting wet</li>
-        </ol>
+
+        <section class="cat-hates">
+          <h2>Things cats hate:</h2>
+          <ol class="list">
+            <li>Loud noises</li>
+            <li>Water baths</li>
+            <li>Strong perfumes</li>
+            <li>Dirty litter boxes</li>
+            <li>Vacuum cleaners</li>
+            <li>Sudden movements</li>
+            <li>Strangers in their space</li>
+            <li>Being woken up</li>
+            <li>Car rides</li>
+            <li>Thunderstorms</li>
+            <li>Too much cuddling</li>
+            <li>Closed doors</li>
+            <li>Being ignored</li>
+            <li>Strong citrus smells</li>
+            <li>Trips to the vet</li>
+          </ol>
+        </section>
         <figure>
           <img
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
@@ -99,7 +197,7 @@
       </section>
 
       <!--Start of the Cat Form to fill out-->
-      <section>
+      <section id="submit">
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
@@ -198,20 +296,28 @@
             />
             <label for="sleepy">Sleepy</label>
           </fieldset>
-          <input
-            type="text"
-            name="catphotourl"
-            placeholder="cat photo URL"
-            required
-          />
-          <button type="submit">Submit</button>
+          <div class="submit-section">
+            <label for="catphoto">Your Cat Photo:</label>
+            <input
+              class="text-input"
+              type="text"
+              name="catphotourl"
+              placeholder="cat photo URL"
+              required
+            />
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </section>
     </main>
     <footer>
       <p>
-        No Copyright -
-        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+        No Copyright | Alexander Green | Utah |
+        <a href="tooeletech.org"> Tooele Technical College</a> |<a
+          href="https://www.freecodecamp.org"
+        >
+          freeCodeCamp.org</a
+        >
       </p>
     </footer>
   </body>

@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #03179e;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 50px;
+  font-size: 1.2em;
+}
+
+.banner {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+}
+
+.banner img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; /* aligns text and image vertically */
+  padding: 35px;
+  line-height: 1.5; /* Adjust this value as needed */
+}
+
+#gallery {
+  background-color: white;
+  padding: 35px;
+}
+
+#gallery h2 {
+  text-align: left;
+  font-size: 1.5em;
+}
+
+#gallery p {
+  text-align: left;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+#gallery h3 {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.photos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row; /* aligns images in a row */
+  flex-wrap: wrap; /* allows images to wrap into new rows */
+  gap: 10px; /* adds space between images */
+  padding-left: 20px;
+}
+
+.photos img {
+  height: 35vh; /* Set your desired height */
+  width: auto; /* Let width adjust automatically */
+  object-fit: cover; /* Crop images to fill the box */
+  display: block;
+}
+
+#info {
+  padding: 35px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap; /* allows items to wrap into new rows */
+  list-style: none; /* removes bullet points */
+  padding: 0;
+  margin: 0;
+  gap: 10px 40px; /* adds space between items (vertical, horizontal) */
+}
+
+.list li {
+  width: 200px; /* controls how wide each item is */
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+figure img {
+  width: auto;
+  height: 20%;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  display: block;
+  width: 80vw;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#submit text-input,
+.text-input {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  max-width: 600px;
+  align-self: center;
+}
+
+#submit button,
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 12px 32px;
+  font-size: 1.1em;
+  background-color: #03179e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#submit button:hover,
+button[type="submit"]:hover {
+  background-color: #2541b2;
+}
+
+footer {
+  background-color: #03179e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
